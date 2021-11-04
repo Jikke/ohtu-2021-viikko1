@@ -1,2 +1,0 @@
-Testataan "git add -p" -komentoa. \
-Tämä rivi on kirjoitettu alkuperäisessä repositoriossa.
