@@ -1,0 +1,1 @@
+Testataan "git add -p" -komentoa.
