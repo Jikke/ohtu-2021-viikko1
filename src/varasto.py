@@ -2,7 +2,7 @@ class Varasto:
     def __init__(self, tilavuus, alku_saldo = 0):
             # testikommentti
         self.tilavuus = max(tilavuus, 0.0)
-        self.saldo = max(alku_saldo, 0.0)
+        alku_saldo = max(alku_saldo, 0.0)
         if alku_saldo <= tilavuus:
             # mahtuu
             self.saldo = alku_saldo
